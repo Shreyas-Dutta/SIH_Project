@@ -1,2 +1,9 @@
+[project]
+name = "sih-project"
+version = "1.0.0"
+description = "Assam Heat Health Risk Prediction System"
+requires-python = ">=3.11"
+dependencies = []
+
 [tool.vercel]
 entrypoint = "heatwave_pipeline.api.app:app"
