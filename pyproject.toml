@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "heatwave_pipeline.api.app:app"
