@@ -1,0 +1,247 @@
+{
+  "model": "xgboost",
+  "threshold": 0.338,
+  "dataset_rows": 108459,
+  "test_rows": 16269,
+  "test_positive_rate": 0.1508390189931772,
+  "training_positive_rate": 0.06211720077448927,
+  "metrics": {
+    "threshold": 0.338,
+    "accuracy": 0.7892310529227365,
+    "balanced_accuracy": 0.7790481449329996,
+    "precision": 0.39686905013750795,
+    "recall": 0.7644661776691116,
+    "f1": 0.522489903913104,
+    "roc_auc": 0.8483312346377102,
+    "pr_auc": 0.4459130872161374,
+    "brier_score": 0.11211233586072922,
+    "true_positive": 1876,
+    "true_negative": 10964,
+    "false_positive": 2851,
+    "false_negative": 578,
+    "confusion_matrix": [
+      [
+        10964,
+        2851
+      ],
+      [
+        578,
+        1876
+      ]
+    ],
+    "predicted_positive": 4727
+  },
+  "threshold_comparison": {
+    "0.05": {
+      "threshold": 0.05,
+      "accuracy": 0.42559468928637284,
+      "balanced_accuracy": 0.6562513107629901,
+      "precision": 0.20634108923548963,
+      "recall": 0.9865525672371638,
+      "f1": 0.3412983717487841,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 2421,
+      "true_negative": 4503,
+      "false_positive": 9312,
+      "false_negative": 33,
+      "confusion_matrix": [
+        [
+          4503,
+          9312
+        ],
+        [
+          33,
+          2421
+        ]
+      ],
+      "predicted_positive": 11733
+    },
+    "0.1": {
+      "threshold": 0.1,
+      "accuracy": 0.5461921445694266,
+      "balanced_accuracy": 0.7162023579132919,
+      "precision": 0.24431995020230315,
+      "recall": 0.9596577017114915,
+      "f1": 0.38948151823368893,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 2355,
+      "true_negative": 6531,
+      "false_positive": 7284,
+      "false_negative": 99,
+      "confusion_matrix": [
+        [
+          6531,
+          7284
+        ],
+        [
+          99,
+          2355
+        ]
+      ],
+      "predicted_positive": 9639
+    },
+    "0.15": {
+      "threshold": 0.15,
+      "accuracy": 0.6252381830475137,
+      "balanced_accuracy": 0.7469956648588092,
+      "precision": 0.27691365584813227,
+      "recall": 0.9213528932355338,
+      "f1": 0.4258404746209624,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 2261,
+      "true_negative": 7911,
+      "false_positive": 5904,
+      "false_negative": 193,
+      "confusion_matrix": [
+        [
+          7911,
+          5904
+        ],
+        [
+          193,
+          2261
+        ]
+      ],
+      "predicted_positive": 8165
+    },
+    "0.2": {
+      "threshold": 0.2,
+      "accuracy": 0.68289384719405,
+      "balanced_accuracy": 0.7670370871815565,
+      "precision": 0.3084548930746353,
+      "recall": 0.8875305623471883,
+      "f1": 0.4578034682080925,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 2178,
+      "true_negative": 8932,
+      "false_positive": 4883,
+      "false_negative": 276,
+      "confusion_matrix": [
+        [
+          8932,
+          4883
+        ],
+        [
+          276,
+          2178
+        ]
+      ],
+      "predicted_positive": 7061
+    },
+    "0.25": {
+      "threshold": 0.25,
+      "accuracy": 0.7265351281578462,
+      "balanced_accuracy": 0.7779888272111299,
+      "precision": 0.3384615384615385,
+      "recall": 0.8516707416462918,
+      "f1": 0.48441302584308726,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 2090,
+      "true_negative": 9730,
+      "false_positive": 4085,
+      "false_negative": 364,
+      "confusion_matrix": [
+        [
+          9730,
+          4085
+        ],
+        [
+          364,
+          2090
+        ]
+      ],
+      "predicted_positive": 6175
+    },
+    "0.3": {
+      "threshold": 0.3,
+      "accuracy": 0.7640297498309668,
+      "balanced_accuracy": 0.779624393951863,
+      "precision": 0.3698552903589551,
+      "recall": 0.8019559902200489,
+      "f1": 0.5062379421221865,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 1968,
+      "true_negative": 10462,
+      "false_positive": 3353,
+      "false_negative": 486,
+      "confusion_matrix": [
+        [
+          10462,
+          3353
+        ],
+        [
+          486,
+          1968
+        ]
+      ],
+      "predicted_positive": 5321
+    },
+    "0.4": {
+      "threshold": 0.4,
+      "accuracy": 0.8158460876513615,
+      "balanced_accuracy": 0.7640566886742114,
+      "precision": 0.4310081466395112,
+      "recall": 0.6898940505297474,
+      "f1": 0.5305546850517079,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 1693,
+      "true_negative": 11580,
+      "false_positive": 2235,
+      "false_negative": 761,
+      "confusion_matrix": [
+        [
+          11580,
+          2235
+        ],
+        [
+          761,
+          1693
+        ]
+      ],
+      "predicted_positive": 3928
+    },
+    "0.5": {
+      "threshold": 0.5,
+      "accuracy": 0.8363759296822177,
+      "balanced_accuracy": 0.705436182102477,
+      "precision": 0.4621818181818182,
+      "recall": 0.5179299103504482,
+      "f1": 0.48847040737893926,
+      "roc_auc": 0.8483312346377102,
+      "pr_auc": 0.4459130872161374,
+      "brier_score": 0.11211233586072922,
+      "true_positive": 1271,
+      "true_negative": 12336,
+      "false_positive": 1479,
+      "false_negative": 1183,
+      "confusion_matrix": [
+        [
+          12336,
+          1479
+        ],
+        [
+          1183,
+          1271
+        ]
+      ],
+      "predicted_positive": 2750
+    }
+  },
+  "leakage_columns": [],
+  "leakage_status": "controlled_train_only_climatology",
+  "confusion_matrix_image": "C:\\Users\\rikid\\Downloads\\SIH_v2_heat_health_risk_UI_v10_auto_threshold_final\\heatwave_confusion_matrix.png"
+}

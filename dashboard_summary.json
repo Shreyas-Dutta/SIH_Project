@@ -1,0 +1,9 @@
+{
+  "generated_rows": 135,
+  "districts": 27,
+  "alert_counts": {
+    "GREEN": 103,
+    "YELLOW": 32
+  },
+  "max_risk": 49.1
+}

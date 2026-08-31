@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.pytest_cache/
+.DS_Store
+# Large datasets
+heat_health_risk_historical.csv
+heatwave_ml_dataset.csv
+
+# All generated CSV datasets
+*.csv

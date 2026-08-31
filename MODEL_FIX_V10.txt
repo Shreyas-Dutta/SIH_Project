@@ -1,0 +1,14 @@
+V10 HEATWAVE MODEL FIX
+
+- Removed negative undersampling + probability-prior correction mismatch.
+- Full training set is retained; XGBoost uses a conservative class weight of 7.0.
+- District-month climatology is fitted from TRAIN only and frozen for validation/test.
+- Heatwave labels are rebuilt from future Tmax/WBGT using the TRAIN climatology.
+- Automatic threshold searches 0.001..0.999 and maximizes balanced accuracy subject to validation recall >= 75%.
+- Live forecast now builds the same lag features as training.
+- Live forecast uses the ML probability directly for thresholded prediction; separate event evidence no longer inflates the probability.
+- heatwave_climatology.csv now includes HI p90/p95 and Tmin p95 so all saved model features are available to live forecast.
+
+Latest leakage-controlled test result:
+TN=10964, FP=2851, FN=578, TP=1876
+Accuracy=78.92%, Balanced Accuracy=77.90%, Precision=39.69%, Recall=76.45%, F1=52.25%, ROC-AUC=84.83%, PR-AUC=44.59%
