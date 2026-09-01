@@ -7,6 +7,13 @@ BASE=Path(__file__).resolve().parents[2]
 OUTPUT=BASE/"district_5day_risk_forecast.csv"
 SUMMARY=BASE/"dashboard_summary.json"
 
+@app.get("/")
+def root():
+    return {
+        "status": "online",
+        "message": "Assam Heat-Health Risk API is running"
+    }
+
 @app.get("/health")
 def health(): return {"status":"ok"}
 
@@ -28,3 +35,4 @@ def summary():
         return {"error":"Run pipeline first"}
     import json
     return json.loads(SUMMARY.read_text(encoding="utf-8"))
+
